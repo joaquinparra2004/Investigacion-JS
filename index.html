@@ -22,28 +22,28 @@
                 <a href="#punto1">
                     <li>1</li>
                 </a>
-                <a href="#punto2">
+                <a href="#punto1">
                     <li>2</li>
                 </a>
-                <a href="#punto3">
+                <a href="#punto2">
                     <li>3</li>
                 </a>
-                <a href="#punto4">
+                <a href="#punto3">
                     <li>4</li>
                 </a>
-                <a href="#punto5">
+                <a href="#punto4">
                     <li>5</li>
                 </a>
-                <a href="#punto6">
+                <a href="#punto5">
                     <li>6</li>
                 </a>
-                <a href="punto7">
+                <a href="#punto6">
                     <li>7</li>
                 </a>
-                <a href="punto8">
+                <a href="#punto7">
                     <li>8</li>
                 </a>
-                <a href="#punto9">
+                <a href="#punto8">
                     <li>9</li>
                 </a>
                 <a href="#punto10">
@@ -54,13 +54,13 @@
         </div>
 
         <!-- PREGUNTAS Y RESPUESTAS  -->
-        <div id="titulo">
+        <div data-text="titulo">
             <h1>Investigacion de JS</h1>
         </div>
         <div id="texto">
             <div id="texto-info">
 
-                <div id="punto 1">
+                <div id="punto1">
                     <h2>1) ¿Qué versiones de JavaScript hay en el mercado?. </h2>
                     <p>
                         Las versiones que existieron en el mercadode versiones de JS fueron:
@@ -77,31 +77,33 @@
                         a distintos ritmos entre los navegadores.
                     </p>
                 </div>
-                <div id="punto 2">
+                <div id="punto2">
                     <h2>2) ¿Cómo se integra JavaScript a HTML?. </h2>
-                    <p>
-                        Para poder lograr integrar correctamente JavaScript a HTML lo tenemos que vincular desde el HTML hacia el JS a través de 3 etiquetas, las cuales dos de estas pueden ser declaradas en el header y una que puede ser declarada dentro del body del HTML.
-                        <p>Poder enlazar con el atributo "src", el cual se coloca en el header con la etiqueta de script, donde permite crear una ruta hacia un archivo externo o recurso que quieres enlazar a tu documento HTML.</p>
-                    </p>
-                    <p>Poder enlazar directamente desde el HTML con la etiqueta script, donde pondremos todo el código de JS que tengamos dentro de esta etiqueta la cual estará ubicada en el body del HTML.
-                    </p>
-                    <p>
-                        Poder enlazar directamente desde el HTML con la etiqueta script. esta forma a diferencia de la anterior, se tiene que declarar dentro del head usando la misma metodología donde utilizamos la etiqueta script y ponemos el código JS dentro de ella.
-                    </p>
+
+                    Para poder lograr integrar correctamente JavaScript a HTML lo tenemos que vincular desde el HTML hacia el JS a través de 3 etiquetas, las cuales dos de estas pueden ser declaradas en el header y una que puede ser declarada dentro del body del HTML.
                     <img src="IMAGENES/code_vincularJS.png " alt="Vincular HTML/JS" height="500" width="600">
+                    <ul>
+                        <li> Poder enlazar con el atributo "src", el cual se coloca en el header con la etiqueta de script, donde permite crear una ruta hacia un archivo externo o recurso que quieres enlazar a tu documento HTML.
+                        </li>
+                        <li> Poder enlazar directamente desde el HTML con la etiqueta script, donde pondremos todo el código de JS que tengamos dentro de esta etiqueta la cual estará ubicada en el body del HTML.
+                        </li>
+                        <li> Poder enlazar directamente desde el HTML con la etiqueta script. esta forma a diferencia de la anterior, se tiene que declarar dentro del head usando la misma metodología donde utilizamos la etiqueta script y ponemos el código
+                            JS dentro de ella.
+                        </li>
+                    </ul>
                 </div>
-                <div id="punto 3">
+                <div id="punto3">
                     <h2>3) ¿Cómo es el manejo de las variables, tipos de datos y expresiones regulares en JS?. </h2>
                     <p>La forma de manejar las variables dentro de JS son tres, donde estas mismas se declaran a partir ya sea:
-                        <ul>
-                            <li> <u>Var</u>, donde se declara la variable opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar variables locales y globales, dependiendo del contexto de ejecución. Por ejemplo, var x = 12;
-                            </li>
-                            <li> <u>Let</u>, donde se declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar una variable local con ámbito de bloque. Por ejemplo, let y = 13;
-                            </li>
-                            <li> <u>Const</u>, donde se declara un nombre de constante de solo lectura y ámbito de bloque. También comparte la misma sintaxis que let.
-                            </li>
+                        <br>
+                        <u>Var</u>, donde se declara la variable opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar variables locales y globales, dependiendo del contexto de ejecución. Por ejemplo, var x = 12;
+                        <br>
+                        <u>Let</u>, donde se declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar una variable local con ámbito de bloque. Por ejemplo, let y = 13;
+                        <br>
+                        <u>Const</u>, donde se declara un nombre de constante de solo lectura y ámbito de bloque. También comparte la misma sintaxis que let.
 
-                        </ul>
+
+
                     </p>
                     <p>
                         Para manejar los tipos de datos se utiliza el ultimo estándar de ECMAScript que define siete tipos de datos:
@@ -119,8 +121,9 @@
 
                     </p>
                 </div>
-                <div id="punto 4">
+                <div id="punto4">
                     <h2>4) ¿Cómo son todas las formas de declaración de funciones en JS?. </h2>
+                    <img src="IMAGENES/code_funcionesJS.png " alt="Funciones de JS" height="400" width="600">
                     <p>Las declaraciones de funciones son las siguientes:
                         <ul>
                             <li>
@@ -132,9 +135,9 @@
                             </li>
                         </ul>
                     </p>
-                    <img src="IMAGENES/code_funcionesJS.png " alt="Funciones de JS" height="400" width="600">
+
                 </div>
-                <div id="punto 5">
+                <div id="punto5">
                     <h2>5) ¿Cuáles son los operadores y conversión entre tipos?. </h2>
                     <p>Conversiones entre tipos, están son la manera de convertir de manera explícita un valor al tipo esperado. Estas formas son las más utilizadas:
                         <ul>
@@ -144,7 +147,7 @@
                         </ul>
                     </p>
                 </div>
-                <div id="punto 6">
+                <div id="punto6">
                     <h2>6) ¿Cuáles son las estructura de control de JS?. </h2>
                     <p>
                         Las estructuras de control de JS son las siguientes:
@@ -156,7 +159,7 @@
                         <p>DO WHILE</p>
                     </p>
                 </div>
-                <div id="punto 7">
+                <div id="punto7">
                     <h2>7) ¿Qué es el objeto dom en JS? Y ¿Cómo trabaja?. </h2>
                     <p>El objeto DOM (Document Object Model) en JavaScript, que es la misma estructura del documento HTML. Una página HTML la cual está formada por múltiples etiquetas, anidadas una dentro de otra, formando un árbol de etiquetas relacionadas
                         entre sí.
@@ -176,21 +179,21 @@
                         </ul> Para agregar nuevos elementos al documento se utiliza document.createElement () donde se agregan nuevos elementos al árbol del DOM.Lo mismo pasa si queremos eliminar un elemento donde usaremos ().
                     </p>
                 </div>
-                <div id="punto 8">
+                <div id="punto8">
                     <h2>8) ¿Qué función tiene en JS el Object Map?. </h2>
                     <p>La función de Object Map es usada para tomar un arreglo y aplicar algún procedimiento a sus elementos para obtener un nuevo arreglo con elementos modificados Array.map ().</p>
                     <p>Este método permite iterar sobre un arreglo y modificar sus elementos donde se ejecutará en cada elemento del array. Este mismo se utiliza mayormente para aplicar cambios a los elementos. En este siguiente ejemplo veremos como multiplicar
                         en cada uno de los elementos del arreglo por 3.</p>
                     <img src="IMAGENES/code_objectMapJS.png " alt="Object Map JS" height="325" width="500">
                 </div>
-                <div id="punto 9">
+                <div id="punto9">
                     <h2>9) ¿Cuáles son todos los eventos que trabaja JS?. </h2>
                     <p>Los eventos dentro de JS no son más que una notificación de que alguna característica interesante acaba de ocurrir, las cuales mayormente se relacionan con el usuario. Algunos eventos en los cuales trabaja JS son estos:</p>
                     <ul>
                         <li>onblur – Un elemento pierde el foco</li>
                         <li>onclick – Pulsar y soltar ratón</li>
                         <li>onmouseout – Un elemento ha sido modificado.</li>
-                        <li>onmouseover- un elemento obtiene el foco.</li>
+                        <li>onmouseover- Un elemento obtiene el foco.</li>
                         <li>onkeydown – Pulsar una tecla y no soltarla.</li>
                         <li>onkeypress – Pulsar una tecla.</li>
                         <li>onkeyup – Soltar una tecla pulsada.</li>
@@ -199,8 +202,9 @@
                         <li>onresize – Modificar el tamaño de la ventana.</li>
                     </ul>
                 </div>
-                <div id="punto 10">
+                <div id="punto10">
                     <h2>10) Con toda la investigación que generaron deben de generar un formulario que realice las siguientes funciones.
+
                         <br>
                         <br> a. ¿Como obtener los datos del input?.</ol>
                         <br> b. ¿Como verificar los datos que se ingresan en el input?.</ol>
@@ -210,9 +214,11 @@
                     <p class="10 a">
                         a) Para poder obtener datos del input de un formulario dentro de JS, se debe usar:
                         <ul>
-                            <li>documento.getElementById(id_name) para poder obtener el valor de entrada en JavaScript. Donde le damos propiedad al id a nuestro elemento de entrada DOM, y luego usamos este método.</li>
-                            <li>document.getElementsByClassName('class_name') para obtener el valor de entrada en JavaScript. </li>
-                            <li>document.querySelector('selector') para obtener el valor de entrada en JavaScript. </li>
+                            <ol>documento.getElementById(id_name) para poder obtener el valor de entrada en JavaScript. Donde le damos propiedad al id a nuestro elemento de entrada DOM, y luego usamos este método.</ol>
+                            <br>
+                            <ol>document.getElementsByClassName('class_name') para obtener el valor de entrada en JavaScript. </ol>
+                            <br>
+                            <ol>document.querySelector('selector') para obtener el valor de entrada en JavaScript. </ol>
                         </ul>
                     </p>
                     <p class="10 b">

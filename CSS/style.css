@@ -3,19 +3,17 @@
     padding: 0px;
 }
 
-h1,
-h2 {
-    font-family: 'Liberation Serif';
-}
-
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(240, 240, 240, 255);
 }
 
+
+/*  SECCION MENU */
+
 #menu {
     position: sticky;
+    /*  MENU PEGAGOSO */
     top: 0;
 }
 
@@ -31,11 +29,13 @@ body {
 }
 
 #menu img {
+    /*  MENU - LOGO */
     width: 4%;
     padding-right: 20px;
 }
 
 #menu p {
+    /*  MENU - NOMBRE */
     font-size: 15px;
     color: #f4dc1c;
     font-weight: bold;
@@ -75,4 +75,65 @@ body {
 #menu ul a:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+
+/*  SECCION TEXTO */
+
+#punto2 img {
+    float: right;
+    margin-left: 50px;
+}
+
+#punto4 img {
+    float: right;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 30pt;
+}
+
+#texto h2 {
+    font-family: 'Liberation Serif';
+    font-size: 20pt;
+}
+
+#texto p {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+
+#texto li {
+    margin-bottom: 10px;
+}
+
+#texto {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    width: 74%;
+}
+
+a {
+    text-decoration: none;
+    color: #2FA8EC;
+}
+
+a:hover {
+    color: #2b95d3;
 }
