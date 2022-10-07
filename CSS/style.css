@@ -1,0 +1,14 @@
+* {
+    border: 0px;
+    padding: 0px;
+}
+
+h1,
+h2 {
+    font-family: 'Liberation Serif';
+}
+
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
