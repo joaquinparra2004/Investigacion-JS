@@ -61,50 +61,188 @@
                 <div id="punto 1">
                     <h2>1) ¿Qué versiones de JavaScript hay en el mercado?. </h2>
                     <p>
-
+                        Las versiones que existieron en el mercadode versiones de JS fueron:
+                        <ul>
+                            <ol> JavaScript 1 </ol>
+                            <ol> JavaScript 1.2</ol>
+                            <ol>JavaScript 1.3</ol>
+                            <ol> JavaScript 1.4</ol>
+                            <ol> JavaScript 1.5</ol>
+                            <ol> ECMAScript 5</ol>
+                            <ol> ECMAScript 6</ol>
+                        </ul>
+                        Después de estas últimas versiones de ECMAScript desde el 2015, JavaScript decidido adquirir un compromiso de liberar una versión de ECMAScript por año. Por lo cual existen diversos estándares con pequeños cambios incrementales, que se han ido incorporando
+                        a distintos ritmos entre los navegadores.
                     </p>
                 </div>
                 <div id="punto 2">
                     <h2>2) ¿Cómo se integra JavaScript a HTML?. </h2>
-                    <p></p>
+                    <p>
+                        Para poder lograr integrar correctamente JavaScript a HTML lo tenemos que vincular desde el HTML hacia el JS a través de 3 etiquetas, las cuales dos de estas pueden ser declaradas en el header y una que puede ser declarada dentro del body del HTML.
+                        <p>Poder enlazar con el atributo "src", el cual se coloca en el header con la etiqueta de script, donde permite crear una ruta hacia un archivo externo o recurso que quieres enlazar a tu documento HTML.</p>
+                    </p>
+                    <p>Poder enlazar directamente desde el HTML con la etiqueta script, donde pondremos todo el código de JS que tengamos dentro de esta etiqueta la cual estará ubicada en el body del HTML.
+                    </p>
+                    <p>
+                        Poder enlazar directamente desde el HTML con la etiqueta script. esta forma a diferencia de la anterior, se tiene que declarar dentro del head usando la misma metodología donde utilizamos la etiqueta script y ponemos el código JS dentro de ella.
+                    </p>
+                    <!-- FOTO DE CODIGO DE ENLAZAR JS Y HTML  -->
                 </div>
                 <div id="punto 3">
                     <h2>3) ¿Cómo es el manejo de las variables, tipos de datos y expresiones regulares en JS?. </h2>
-                    <p></p>
+                    <p>La forma de manejar las variables dentro de JS son tres, donde estas mismas se declaran a partir ya sea:
+                        <ul>
+                            <li> <u>Var</u>, donde se declara la variable opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar variables locales y globales, dependiendo del contexto de ejecución. Por ejemplo, var x = 12;
+                            </li>
+                            <li> <u>Let</u>, donde se declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor. Esta sintaxis se puede utilizar para declarar una variable local con ámbito de bloque. Por ejemplo, let y = 13;
+                            </li>
+                            <li> <u>Const</u>, donde se declara un nombre de constante de solo lectura y ámbito de bloque. También comparte la misma sintaxis que let.
+                            </li>
+
+                        </ul>
+                    </p>
+                    <p>
+                        Para manejar los tipos de datos se utiliza el ultimo estándar de ECMAScript que define siete tipos de datos:
+                        <ul>
+                            <li>Booleano - True y False</li>
+                            <li>null - Palabra clave especial que denota un valor nulo.</li>
+                            <li>undefined - Propiedad de alto nivel que su valor no está definido.</li>
+                            <li>Number - Un numero entero o con una coma flotante.</li>
+                            <li>Biglnt - Un numero entero con precisión arbitraria.</li>
+                            <li>String - Secuencias de caracteres que hacen el valor de texto.</li>
+                            <li>Symbol - Un tipo de dato cuyas instancias son únicas e imutables.</li>
+                        </ul>
+                        Para manejar correctamente las Expresiones regulares, donde tiene la posibilidad de poder usar grupos nombrados usando una expresión regular. Un match de esta misma expresión va a retornar un objeto. Si alguna parte de la expresión está dentro de los
+                        paréntesis, es agarrado por el grupo y almacenado en el grupo que haya hecho match.Por ejemplo: const data = /([0-]{9})-([0-9]{2})-([0-9]{2})/; const matchedObject = eventDate.exec('2019-04-03');.
+
+                    </p>
                 </div>
                 <div id="punto 4">
                     <h2>4) ¿Cómo son todas las formas de declaración de funciones en JS?. </h2>
-                    <p></p>
+                    <p>Las declaraciones de funciones son las siguientes:
+                        <ul>
+                            <li>
+                                Funciones declaradas, las cuales son una vieja forma de usar las funciones dentro de JS actualmente.
+                            </li>
+                            <li> Funciones expresadas, las cuales son la nueva forma de usar las funciones dentro de JS actualmente.
+                            </li>
+                            <li> Funciones en forma de flecha (Arrow Function), Esta forma se hace en una sola línea de código.
+                            </li>
+                        </ul>
+                    </p>
+                    <!-- FOTO DE CODIGO DE FUNCIONES JS -->
                 </div>
                 <div id="punto 5">
                     <h2>5) ¿Cuáles son los operadores y conversión entre tipos?. </h2>
-                    <p></p>
+                    <p>Conversiones entre tipos, están son la manera de convertir de manera explícita un valor al tipo esperado. Estas formas son las más utilizadas:
+                        <ul>
+                            <li> ToString - Ocurre cuando necesitamos la representación en forma de texto de un valor. Se puede realizar con String(value). La conversión a string es usualmente obvia para los valores primitivos.
+                            </li>
+                            <li> ToNumber - Ocurre automáticamente en operaciones matemáticas y expresiones. Se puede realizar con Number(value).
+                            </li>
+                            <li> ToBoolean - Ocurren en operaciones lógicas. Se puede realizar con Boolean(value).
+                            </li>
+                        </ul>
+                    </p>
                 </div>
                 <div id="punto 6">
                     <h2>6) ¿Cuáles son las estructura de control de JS?. </h2>
-                    <p></p>
+                    <p>
+                        Las estructuras de control de JS son las siguientes:
+                        <p>IF/ELSE
+                            <!-- FOTO DE CODIGO DE IF/ELSE -->
+                        </p>
+                        <p>Multiples ELSE
+                            <!-- FOTO DE CODIGO DE Multiples ELSE -->
+                        </p>
+                        <p>SWITCH
+                            <!-- FOTO DE CODIGO DE SWITCH -->
+                        </p>
+                        <p>FOR
+                            <!-- FOTO DE CODIGO DE FOR -->
+                        </p>
+                        <p>WHILE
+                            <!-- FOTO DE CODIGO DE WHILE -->
+                        </p>
+                        <p>DO WHILE
+                            <!-- FOTO DE CODIGO DE DO WHILE -->
+                        </p>
+                    </p>
                 </div>
                 <div id="punto 7">
                     <h2>7) ¿Qué es el objeto dom en JS? Y ¿Cómo trabaja?. </h2>
-                    <p></p>
+                    <p>El objeto DOM (Document Object Model) en JavaScript, que es la misma estructura del documento HTML. Una página HTML la cual está formada por múltiples etiquetas, anidadas una dentro de otra, formando un árbol de etiquetas relacionadas
+                        entre sí.
+                        <br> Esta estructura, se puede modificar de forma dinámica desde JavaScript. Añadiendo nuevas etiquetas, modificando o eliminando otras, cambiando sus atributos HTML. El DOM visualiza el documento de HTML como un árbol de tres
+                        nodos, donde cada nodo representa un documento de HTML.
+                        <br>
+                    </p>
+                    <p>
+                        Para utilizar el DOM en JS, hay diferentes métodos para seleccionar un elemento en el HTML.
+                        <ul>
+                            <li> getElementById () Toma una etiqueta que tenga id en HTML.
+                            </li>
+                            <li> querySelector () Toma uno o más selectores CSS.
+                            </li>
+                            <li> querySelectorAll () Encuentra todos los elementos que coinciden con el selector de CSS y devuelve una lista de todos esos nodos.
+                            </li>
+                        </ul> Para agregar nuevos elementos al documento se utiliza document.createElement () donde se agregan nuevos elementos al árbol del DOM.Lo mismo pasa si queremos eliminar un elemento donde usaremos Element.remove ().
+                    </p>
                 </div>
                 <div id="punto 8">
                     <h2>8) ¿Qué función tiene en JS el Object Map?. </h2>
-                    <p></p>
+                    <p>La función de Object Map es usada para tomar un arreglo y aplicar algún procedimiento a sus elementos para obtener un nuevo arreglo con elementos modificados Array.map ().</p>
+                    <p>Este método permite iterar sobre un arreglo y modificar sus elementos donde se ejecutará en cada elemento del array. Este mismo se utiliza mayormente para aplicar cambios a los elementos. En este siguiente ejemplo veremos como multiplicar
+                        en cada uno de los elementos del arreglo por 3.</p>
+                    <!-- FOTO DE CODIGO DE Object Map -->
                 </div>
                 <div id="punto 9">
                     <h2>9) ¿Cuáles son todos los eventos que trabaja JS?. </h2>
-                    <p></p>
+                    <p>Los eventos dentro de JS no son más que una notificación de que alguna característica interesante acaba de ocurrir, las cuales mayormente se relacionan con el usuario. Algunos eventos en los cuales trabaja JS son estos:</p>
+                    <ul>
+                        <li>onblur – Un elemento pierde el foco</li>
+                        <li>onclick – Pulsar y soltar ratón</li>
+                        <li>onmouseout – Un elemento ha sido modificado.</li>
+                        <li>onmouseover- un elemento obtiene el foco.</li>
+                        <li>onkeydown – Pulsar una tecla y no soltarla.</li>
+                        <li>onkeypress – Pulsar una tecla.</li>
+                        <li>onkeyup – Soltar una tecla pulsada.</li>
+                        <li>onreset – Inicializar el formulario.</li>
+                        <li>onsubmit – Enviar el formulario.</li>
+                        <li>onresize – Modificar el tamaño de la ventana.</li>
+                    </ul>
                 </div>
                 <div id="punto 10">
                     <h2>10) Con toda la investigación que generaron deben de generar un formulario que realice las siguientes funciones.
-                        <ul>
-                            <ol>a. ¿Como obtener los datos del input?.</ol>
-                            <ol>b. ¿Como verificar los datos que se ingresan en el input?.</ol>
-                            <ol>c. ¿Que es y como funciona el calculo de sumatoria para validar ¿Qué no sos un robot”?.</ol>
-                        </ul>
+                        <br>
+                        <br> a. ¿Como obtener los datos del input?.</ol>
+                        <br> b. ¿Como verificar los datos que se ingresan en el input?.</ol>
+                        <br> c. ¿Que es y como funciona el calculo de sumatoria para validar ¿Qué no sos un robot”?.</ol>
+
                     </h2>
-                    <p></p>
+                    <p class="10 a">
+                        a) Para poder obtener datos del input de un formulario dentro de JS, se debe usar:
+                        <ul>
+                            <li>documento.getElementById(id_name) para poder obtener el valor de entrada en JavaScript. Donde le damos propiedad al id a nuestro elemento de entrada DOM, y luego usamos este método.</li>
+                            <li>document.getElementsByClassName('class_name') para obtener el valor de entrada en JavaScript. </li>
+                            <li>document.querySelector('selector') para obtener el valor de entrada en JavaScript. </li>
+                        </ul>
+                    </p>
+                    <p class="10 b">
+                        b) Para poder verificar los datos ingresados por el usuario dentro del formulario se usa estos atributos en los elementos de HTML5.
+                        <ul>
+                            <li>required: Especifica si un campo de formulario debe completarse antes de que se pueda enviar el formulario.</li>
+                            <li>minlength y maxlength: Especifican la longitud mínima y máxima de los datos de texto (cadenas).</li>
+                            <li>min y max: Especifican los valores mínimo y máximo de los tipos de entrada numéricos.</li>
+                            <li>type: Especifica si los datos deben ser un número, una dirección de correo electrónico o algún otro tipo de reajuste específico.</li>
+                            <li>pattern: Especifica una expresión regular que define un patrón que los datos que se introduzcan deben seguir.</li>
+                        </ul>
+                    </p>
+                    <p class="10 c">
+                        c) Los CAPTCHAs o más conocidos como “No soy un robot” es una forma de verificar que no sos un bot, lo cual sirve para que los datos de los usuarios están más protegidos y hay menor riesgo de sufrir problemas de seguridad. Esta forma de verificación sirve
+                        para dar garantías al sitio web de que somos reales. Para poder añadir esta validación, tendremos que tener en cuenta que necesitamos registrar nuestro sitio web en
+                        <a href="https://www.google.com/recaptcha/admin"> reCAPTCHA </a> y seguir los pasos que nos indica la página, donde después lo añadiremos a nuestro JS y HTML.
+                    </p>
                 </div>
             </div>
         </div>
